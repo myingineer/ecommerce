@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop With Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/icon-menu.svg" alt="" class="ham">
+            <div class="mobile-menu">
+                <div class="mobile-nav">
+                    <ul class="mobile-nav-ul">
+                        <button class="close-menu"><img src="./images/icon-close.svg"></button>
+        
+                        <li>Collections</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo-and-items">
+                <img src="./images/logo.svg" alt="">
+                <ul>
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="cart-and-account">
+                <div class="cart">
+                    <p class="num"></p>
+                    <div class="dropdown-icon"><img src="./images/icon-cart.svg" alt=""></div>
+                    <div class="dropdown-content">
+                        <h5>Cart</h5>
+                        <div class="cart-content">
+                            <p class="empty">Your Cart is Empty</p>
+                            <div class="content-in-cart">
+                                <div class="drop-content">
+                                    <img class="drop-pic" src="./images/image-product-1-thumbnail.jpg" alt="">
+                                    <p class="text">Fall Limited Edition Sneakers $125 x <span class="number">0</span> $<span class="total-amount"></span></p>
+                                    <button class="delete"><img src="./images/icon-delete.svg" alt=""></button>
+                                </div>
+                                <button class="checkout">Checkout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/image-avatar.png" alt="" class="account-img">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="images-section">
+            <div class="main-image-display">
+                <img src="./images/image-product-1.jpg" alt="" class="main-image">
+            </div>
+            <div class="small-images">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="small-image small-image1" id="one" tabindex="0">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="small-image small-image2" id="two" tabindex="0">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="small-image small-image3" id="three" tabindex="0">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="small-image small-image4" id="four" tabindex="0">
+            </div>
+        </div>
+
+        <div class="lightbox-container">
+            <button class="close-btn"><img src="./images/icon-close.svg" alt="icon-close"></button>
+            <button class="left-button"><img src="./images/icon-previous.svg" alt=""></button>
+            <button class="right-button"><img src="./images/icon-next.svg" alt=""></button>
+            <div class="big-lightbox">
+                <img src="./images/image-product-1.jpg" alt="" class="big-lightbox-image">
+            </div>
+            <div class="thumbnails">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="small-thumbnails" id="un" tabindex="0">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="small-thumbnails" id="deux" tabindex="0">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="small-thumbnails" id="trois" tabindex="0">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="small-thumbnails" id="quarte" tabindex="0">
+            </div>
+        </div>
+
+        <div class="description-section">
+            <h6>SNEAKER COMPANY</h6>
+            <h2>Fall Limited Edition Sneakers</h2>
+            <p class="small-text"> 
+                These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they'll withstand everything the weather can offer.
+            </p>
+
+            <div class="prices">
+                <div class="price">
+                    <p class="pri">$125.00</p>
+                    <p class="percent">50%</p>
+                </div>
+                <p class="original">$250.00</p>
+            </div>
+
+            <div class="all-btns">
+                <div class="increase-and-decrease">
+                    <button class="minusbtn"><img src="./images/icon-minus.svg" alt="btn"></button>
+                    <p class="increament">0</p>
+                    <button class="addbtn"><img src="./images/icon-plus.svg" alt="btn"></button>
+                </div>
+                <button class="add-to-cart"><img src="./images/icon-cart.svg" alt="">Add to Cart</button>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
